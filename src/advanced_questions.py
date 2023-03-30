@@ -411,6 +411,104 @@ PROBLEM_SETS = [
             "d": "None of the above"
         },
         "answer": "b"
+          {
+        "question": " Study the following program:\n a = 1\n while True:\n  if a % 7 = = 0:\n  break\n  print(a)\n   a += 1\n Which of the following is correct output of this program?",
+        "options": {
+            "a": "1 2 3 4 5",
+            "b": "1 2 3 4 5 6",
+            "c": "1 2 3 4 5 6 7",
+            "d": "Invalid syntax"
+        },
+        "answer": "b"
+         "question": "Study the following program:\n i = 0\n while i < 5:\n print(i)\n   i += 1\n if i == 3:\n  break\n else:\n print(0)\n What will be the output of this statement?",
+        "options": {
+            "a": "1 2 3",
+            "b": "0 1 2 3",
+            "c": "0 1 2",
+            "d": "3 2 1"
+        },
+        "answer": "c"
+         {
+        "question": " Study the following program:\n i = 0\n while i < 3:\n print(i)\n  i += 1\n else:\n print(0)\n What will be the output of this statement?",
+        "options": {
+            "a": "0 1",
+            "b": "0 1 2",
+            "c": "0 1 2 0",
+            "d": "0 1 2 3"
+        },
+        "answer": "d"
+            {
+        "question": "Study the following program:\n z = "xyz"\n j = "j"\n while j in z:\n while j in z:\n What will be the output of this statement?",
+        "options": {
+            "a": "xyz",
+            "b": "No output",
+            "c": "x y z",
+            "d": "j j j j j j j.."
+        },
+        "answer": "b"
+               {
+        "question": "What error will occur when you execute the following code?\n MANGO = APPLE",
+        "options": {
+            "a": "NameError",
+            "b": "SyntaxError",
+            "c": "TypeError",
+            "d": "ValueError"
+        },
+        "answer": "a"
+             {
+        "question": "What will be the output of the following Python code?\n for i in range(10):\n if i == 5:\n break\n else:\n print(i)\n print(i)\n print("Here")",
+        "options": {
+            "a": "0 1 2 3 4 Here",
+            "b": "0 1 2 3 4 5 Here",
+            "c": "0 1 2 3 4",
+            "d": "1 2 3 4 5"
+        },
+        "answer": "c"
+                  {
+        "question": "What will be the output of the following Python code?\n x = (i for i in range(3))\n for i in x:\n print(i)",
+        "options": {
+            "a": " 0 1 2",
+            "b": "error",
+            "c": "0 1 2 0 1 2",
+            "d": "none of the mentioned"
+        },
+        "answer": "a"
+                {
+        "question": "What will be the output of the following Python code?\n string = "my name is x"\n for i in string:\n print (i, end=", ")",
+        "options": {
+            "a": "m, y, , n, a, m, e, , i, s, , x,",
+            "b": " m, y, , n, a, m, e, , i, s, , x",
+            "c": "my, name, is, x,",
+            "d": "error"
+        },
+        "answer": "a"
+               {
+        "question": "What will be the output of the following Python code snippet?\n a = [0, 1, 2, 3]\n for a[-1] in a:\n print(a[-1])",
+        "options": {
+            "a": " 0 1 2 3",
+            "b": "0 1 2 2",
+            "c": "3 3 3 3",
+            "d": "error"
+        },
+        "answer": "b"
+               {
+        "question": "What will be the output of the following Python code snippet?\n a = [0, 1, 2, 3]\n i = -2\n for i not in a:\n print(i)\n  i += 1",
+        "options": {
+            "a": "-2 -1",
+            "b": "0",
+            "c": " error",
+            "d": "none of the mentioned"
+        },
+        "answer": "c"
+                {
+        "question":"Which of the following is not a complex number?",
+        "options": {
+            "a": "k = 2 + 3j",
+            "b": "k = complex(2, 3)",
+            "c": "k = 2 + 3l",
+            "d": "k = 2 + 3J"
+        },
+        "answer": "c"
     },
 
 ]
